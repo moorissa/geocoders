@@ -1,0 +1,209 @@
+state,total_commuters,outofcounty_commuters,percent_leaving,travel_mode
+Alabama,189117,57560,0.30436185,"Car, truck, or van: Carpooled"
+Alaska,44833,4339,0.096781389,"Car, truck, or van: Carpooled"
+Arizona,306070,23061,0.075345509,"Car, truck, or van: Carpooled"
+Arkansas,132651,36749,0.277035228,"Car, truck, or van: Carpooled"
+California,1837784,397014,0.216028652,"Car, truck, or van: Carpooled"
+Colorado,243493,93007,0.381969913,"Car, truck, or van: Carpooled"
+Connecticut,143974,34794,0.241668635,"Car, truck, or van: Carpooled"
+Delaware,37312,7404,0.19843482,"Car, truck, or van: Carpooled"
+District of Columbia,18510,5180,0.27984873,"Car, truck, or van: Carpooled"
+Florida,793013,158038,0.199288032,"Car, truck, or van: Carpooled"
+Georgia,436408,184349,0.422423512,"Car, truck, or van: Carpooled"
+Hawaii,95101,792,0.008327988,"Car, truck, or van: Carpooled"
+Idaho,68124,18895,0.27736187,"Car, truck, or van: Carpooled"
+Illinois,513673,144077,0.280483888,"Car, truck, or van: Carpooled"
+Indiana,257465,87770,0.340900705,"Car, truck, or van: Carpooled"
+Iowa,138436,41617,0.30062267,"Car, truck, or van: Carpooled"
+Kansas,128100,36355,0.283801717,"Car, truck, or van: Carpooled"
+Kentucky,178195,61317,0.344100564,"Car, truck, or van: Carpooled"
+Louisiana,197265,63535,0.322079436,"Car, truck, or van: Carpooled"
+Maine,63021,16906,0.268259786,"Car, truck, or van: Carpooled"
+Maryland,287977,141204,0.490330825,"Car, truck, or van: Carpooled"
+Massachusetts,254985,90676,0.355613075,"Car, truck, or van: Carpooled"
+Michigan,365304,118281,0.323787859,"Car, truck, or van: Carpooled"
+Minnesota,238088,92193,0.387222372,"Car, truck, or van: Carpooled"
+Mississippi,121587,44672,0.3674077,"Car, truck, or van: Carpooled"
+Missouri,257453,102043,0.39635584,"Car, truck, or van: Carpooled"
+Montana,45889,6235,0.135871342,"Car, truck, or van: Carpooled"
+Nebraska,90427,23708,0.262178332,"Car, truck, or van: Carpooled"
+Nevada,131497,10655,0.081028465,"Car, truck, or van: Carpooled"
+New Hampshire,53435,20168,0.377430523,"Car, truck, or van: Carpooled"
+New Jersey,344842,158714,0.460251361,"Car, truck, or van: Carpooled"
+New Mexico,93131,17986,0.193125812,"Car, truck, or van: Carpooled"
+New York,615665,215407,0.349876962,"Car, truck, or van: Carpooled"
+North Carolina,430079,130537,0.303518656,"Car, truck, or van: Carpooled"
+North Dakota,35257,7962,0.225827495,"Car, truck, or van: Carpooled"
+Ohio,411596,125103,0.303946102,"Car, truck, or van: Carpooled"
+Oklahoma,174717,46380,0.265457855,"Car, truck, or van: Carpooled"
+Oregon,172598,45125,0.261445671,"Car, truck, or van: Carpooled"
+Pennsylvania,508907,159893,0.314189037,"Car, truck, or van: Carpooled"
+Puerto Rico,99338,51190,0.515311361,"Car, truck, or van: Carpooled"
+Rhode Island,41990,15060,0.358656823,"Car, truck, or van: Carpooled"
+South Carolina,185514,53965,0.290894488,"Car, truck, or van: Carpooled"
+South Dakota,39372,10072,0.255816316,"Car, truck, or van: Carpooled"
+Tennessee,259553,77165,0.297299588,"Car, truck, or van: Carpooled"
+Texas,1250881,284240,0.227231847,"Car, truck, or van: Carpooled"
+Utah,146861,34601,0.235603734,"Car, truck, or van: Carpooled"
+Vermont,31176,8908,0.285732615,"Car, truck, or van: Carpooled"
+Virginia,376202,215475,0.5727641,"Car, truck, or van: Carpooled"
+Washington,328457,78674,0.239526026,"Car, truck, or van: Carpooled"
+West Virginia,73743,28407,0.385216224,"Car, truck, or van: Carpooled"
+Wisconsin,243907,75774,0.310667591,"Car, truck, or van: Carpooled"
+Wyoming,31096,4492,0.144455879,"Car, truck, or van: Carpooled"
+Alabama,1655312,443470,0.267907198,"Car, truck, or van: Drove alone"
+Alaska,233911,11934,0.051019405,"Car, truck, or van: Drove alone"
+Arizona,2037875,119714,0.058744526,"Car, truck, or van: Drove alone"
+Arkansas,991895,242664,0.244646863,"Car, truck, or van: Drove alone"
+California,11894164,2117696,0.178044964,"Car, truck, or van: Drove alone"
+Colorado,1849747,683624,0.369577029,"Car, truck, or van: Drove alone"
+Connecticut,1353837,368369,0.272092578,"Car, truck, or van: Drove alone"
+Delaware,333281,71395,0.214218632,"Car, truck, or van: Drove alone"
+District of Columbia,105471,42456,0.40253719,"Car, truck, or van: Drove alone"
+Florida,6393304,1254422,0.196208721,"Car, truck, or van: Drove alone"
+Georgia,3289728,1429399,0.434503704,"Car, truck, or van: Drove alone"
+Hawaii,441224,3061,0.006937519,"Car, truck, or van: Drove alone"
+Idaho,524399,103881,0.198095343,"Car, truck, or van: Drove alone"
+Illinois,4310079,1294000,0.300226516,"Car, truck, or van: Drove alone"
+Indiana,2392957,790712,0.330433017,"Car, truck, or van: Drove alone"
+Iowa,1206250,301055,0.249579275,"Car, truck, or van: Drove alone"
+Kansas,1116248,266868,0.239075904,"Car, truck, or van: Drove alone"
+Kentucky,1486528,468303,0.315031402,"Car, truck, or van: Drove alone"
+Louisiana,1588694,486319,0.306112442,"Car, truck, or van: Drove alone"
+Maine,493713,117425,0.237840608,"Car, truck, or van: Drove alone"
+Maryland,2112116,1015804,0.480941388,"Car, truck, or van: Drove alone"
+Massachusetts,2328407,825071,0.354349991,"Car, truck, or van: Drove alone"
+Michigan,3404937,1082322,0.317868436,"Car, truck, or van: Drove alone"
+Minnesota,2091536,820610,0.392348016,"Car, truck, or van: Drove alone"
+Mississippi,964720,339528,0.351944606,"Car, truck, or van: Drove alone"
+Missouri,2204855,786273,0.356609845,"Car, truck, or van: Drove alone"
+Montana,348754,27451,0.078711642,"Car, truck, or van: Drove alone"
+Nebraska,750125,162437,0.216546576,"Car, truck, or van: Drove alone"
+Nevada,948933,41978,0.044237054,"Car, truck, or van: Drove alone"
+New Hampshire,546180,205754,0.376714636,"Car, truck, or van: Drove alone"
+New Jersey,2939847,1342257,0.45657376,"Car, truck, or van: Drove alone"
+New Mexico,679516,100797,0.148336463,"Car, truck, or van: Drove alone"
+New York,4750326,1434978,0.302079899,"Car, truck, or van: Drove alone"
+North Carolina,3386493,979698,0.28929574,"Car, truck, or van: Drove alone"
+North Dakota,289452,41298,0.142676506,"Car, truck, or van: Drove alone"
+Ohio,4271318,1352780,0.316712546,"Car, truck, or van: Drove alone"
+Oklahoma,1356714,347430,0.256081975,"Car, truck, or van: Drove alone"
+Oregon,1211708,306793,0.253190538,"Car, truck, or van: Drove alone"
+Pennsylvania,4415841,1386326,0.313943822,"Car, truck, or van: Drove alone"
+Puerto Rico,826763,456721,0.552420706,"Car, truck, or van: Drove alone"
+Rhode Island,397339,154080,0.387779704,"Car, truck, or van: Drove alone"
+South Carolina,1630253,483888,0.296817733,"Car, truck, or van: Drove alone"
+South Dakota,318923,65406,0.205083986,"Car, truck, or van: Drove alone"
+Tennessee,2278151,645392,0.28329641,"Car, truck, or van: Drove alone"
+Texas,9060197,2105060,0.232341526,"Car, truck, or van: Drove alone"
+Utah,955256,172106,0.180167411,"Car, truck, or van: Drove alone"
+Vermont,233394,57949,0.248288302,"Car, truck, or van: Drove alone"
+Virginia,2990405,1596274,0.533798599,"Car, truck, or van: Drove alone"
+Washington,2261173,439086,0.194185054,"Car, truck, or van: Drove alone"
+West Virginia,592367,190007,0.320758921,"Car, truck, or van: Drove alone"
+Wisconsin,2224163,667161,0.29996048,"Car, truck, or van: Drove alone"
+Wyoming,215984,12662,0.058624713,"Car, truck, or van: Drove alone"
+Alabama,92228,4842,0.052500325,Other travel mode
+Alaska,62267,5880,0.094432043,Other travel mode
+Arizona,274643,8247,0.030028073,Other travel mode
+Arkansas,75052,3546,0.047247242,Other travel mode
+California,1679201,67877,0.040422201,Other travel mode
+Colorado,296905,16420,0.055303885,Other travel mode
+Connecticut,141630,5853,0.04132599,Other travel mode
+Delaware,29658,1150,0.038775373,Other travel mode
+District of Columbia,67547,3311,0.049017721,Other travel mode
+Florida,681216,32988,0.048425169,Other travel mode
+Georgia,326031,23871,0.073216964,Other travel mode
+Hawaii,83785,1339,0.015981381,Other travel mode
+Idaho,75905,2722,0.035860615,Other travel mode
+Illinois,517268,21465,0.041496864,Other travel mode
+Indiana,194288,8731,0.044938442,Other travel mode
+Iowa,146862,4175,0.028428048,Other travel mode
+Kansas,109550,4033,0.03681424,Other travel mode
+Kentucky,113398,4596,0.040529815,Other travel mode
+Louisiana,121226,11559,0.095350832,Other travel mode
+Maine,67590,2167,0.032060956,Other travel mode
+Maryland,219223,15783,0.071995183,Other travel mode
+Massachusetts,341862,29332,0.085800703,Other travel mode
+Michigan,287081,13576,0.047289789,Other travel mode
+Minnesota,255581,13339,0.052190891,Other travel mode
+Mississippi,59420,4829,0.081268933,Other travel mode
+Missouri,200329,11479,0.05730074,Other travel mode
+Montana,62654,1247,0.019902959,Other travel mode
+Nebraska,79928,2257,0.028237914,Other travel mode
+Nevada,87780,3035,0.034575074,Other travel mode
+New Hampshire,64327,2747,0.042703686,Other travel mode
+New Jersey,359320,33638,0.093615719,Other travel mode
+New Mexico,78253,2250,0.028752891,Other travel mode
+New York,1072511,65145,0.060740636,Other travel mode
+North Carolina,308223,14489,0.047008173,Other travel mode
+North Dakota,38854,747,0.01922582,Other travel mode
+Ohio,348295,15057,0.043230595,Other travel mode
+Oklahoma,110958,5224,0.047080877,Other travel mode
+Oregon,232293,7748,0.033354427,Other travel mode
+Pennsylvania,515100,23925,0.046447292,Other travel mode
+Puerto Rico,81717,10645,0.130266652,Other travel mode
+Rhode Island,43232,2952,0.068282754,Other travel mode
+South Carolina,142073,8157,0.057414146,Other travel mode
+South Dakota,46508,1167,0.025092457,Other travel mode
+Tennessee,157717,7985,0.050628658,Other travel mode
+Texas,840363,45347,0.053961205,Other travel mode
+Utah,117797,4002,0.033973701,Other travel mode
+Vermont,44941,938,0.02087181,Other travel mode
+Virginia,322911,32226,0.099798396,Other travel mode
+Washington,337434,15308,0.045365909,Other travel mode
+West Virginia,49502,1933,0.039048927,Other travel mode
+Wisconsin,251139,10674,0.042502359,Other travel mode
+Wyoming,29562,548,0.018537311,Other travel mode
+Alabama,8756,1152,0.131566926,Public transportation
+Alaska,5566,693,0.124505929,Public transportation
+Arizona,53674,1075,0.020028319,Public transportation
+Arkansas,5366,634,0.118151323,Public transportation
+California,840617,194617,0.23151685,Public transportation
+Colorado,80087,39771,0.49659745,Public transportation
+Connecticut,80183,35031,0.436888118,Public transportation
+Delaware,13255,3826,0.288645794,Public transportation
+District of Columbia,119942,24877,0.207408581,Public transportation
+Florida,165137,15656,0.094806131,Public transportation
+Georgia,88146,34820,0.395026433,Public transportation
+Hawaii,42184,274,0.006495354,Public transportation
+Idaho,5477,2323,0.424137301,Public transportation
+Illinois,514191,79241,0.154108104,Public transportation
+Indiana,30512,7328,0.240167803,Public transportation
+Iowa,16272,962,0.059119961,Public transportation
+Kansas,6371,1580,0.247998744,Public transportation
+Kentucky,19976,4017,0.20109131,Public transportation
+Louisiana,25278,3505,0.138658122,Public transportation
+Maine,3745,906,0.241922563,Public transportation
+Maryland,255290,170698,0.668643503,Public transportation
+Massachusetts,301572,159409,0.528593503,Public transportation
+Michigan,55971,10626,0.189848314,Public transportation
+Minnesota,92382,31497,0.340943041,Public transportation
+Mississippi,4985,1166,0.233901705,Public transportation
+Missouri,39883,13140,0.329463681,Public transportation
+Montana,3673,486,0.132316907,Public transportation
+Nebraska,6538,535,0.081829306,Public transportation
+Nevada,40891,3091,0.075591206,Public transportation
+New Hampshire,5429,3051,0.561981949,Public transportation
+New Jersey,444389,326746,0.735270225,Public transportation
+New Mexico,9350,2493,0.266631016,Public transportation
+New York,2395927,1371610,0.572475706,Public transportation
+North Carolina,45308,5972,0.131808952,Public transportation
+North Dakota,1704,106,0.062206573,Public transportation
+Ohio,84627,7149,0.084476585,Public transportation
+Oklahoma,7911,833,0.105296423,Public transportation
+Oregon,70517,17841,0.253002822,Public transportation
+Pennsylvania,312869,83692,0.267498538,Public transportation
+Puerto Rico,28622,12602,0.440290685,Public transportation
+Rhode Island,14337,5869,0.409360396,Public transportation
+South Carolina,11186,2749,0.245753621,Public transportation
+South Dakota,1840,253,0.1375,Public transportation
+Tennessee,21431,2435,0.113620456,Public transportation
+Texas,178007,23827,0.133854287,Public transportation
+Utah,29617,7041,0.237735085,Public transportation
+Vermont,3609,754,0.208922139,Public transportation
+Virginia,173132,126679,0.731690271,Public transportation
+Washington,181505,36706,0.202231343,Public transportation
+West Virginia,5742,1696,0.295367468,Public transportation
+Wisconsin,51192,5099,0.099605407,Public transportation
+Wyoming,4812,1051,0.218412303,Public transportation
