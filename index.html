@@ -22,21 +22,17 @@
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
         <style>
-        body { font-family: 'Raleway', sans-serif; }
-
-        /*#chart-1 {position: relative;width: 960px;}*/
+        h3 {
+	font-family: Cambria, Georgia, serif;
+	font-size: 36px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+        body { font-family: Cambria, Georgia, serif;}
         #chart-2 {position: relative;width: 960px;}
-        /*#chart-3 {position: relative;width: 960px;}
-        #chart-4 {position: relative;width: 960px;}
-        #chart-5 {position: relative;width: 960px;}*/
 
         #info-display {
           position: absolute;
@@ -78,14 +74,14 @@
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html">The Geocoders</a>
+                <a class="navbar-brand" href="index.html">The Geocoders Project</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <!-- <li>
-                        <a href="about.html">About</a>
+                        <a href="">About</a>
                     </li> -->
                     <!-- <li>
                         <a href="post.html">Sample Post</a>
@@ -106,8 +102,9 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
                         <h1>How does Trump's budget cut affect you?</h1>
-                        <h2 class="subheading">An exploratory analysis report on the impacts of Trump's billion-dollar cuts in city transportation to nationwide locations</h2>
-                        <span class="meta">Posted by <u>The Geocoders</u> on April 18, 2017</span>
+                        <!-- <h2 class="subheading">An exploratory analysis report on the impacts of Trump's billion-dollar cuts in city transportation to nationwide locations</h2> -->
+                        <span class="meta"><font color='lightgray'>An Exploratory Data Analysis and Visualization report on the impacts of Trump's billion-dollar cuts in city transportation to nationwide locations.</font></span>
+                        <!-- <span class="meta"><font color='lightgray';size='12px'>Posted by <u>The Geocoders</u> on April 18, 2017</font></span> -->
                     </div>
                 </div>
             </div>
@@ -121,38 +118,57 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
                     <h2 class="section-heading">Introduction</h2>
+                    <p>On March 16, a <a href='https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/budget/fy2018/2018_blueprint.pdf'>budget blueprint</a> released by the White House details President Trump’s preliminary plan to cut substantial funding for a number of federal agencies, including a 13% decrease for the Department of Transportation.</p>
 
-                    <p>Topics that we are particularly interested in are transportations and smart cities. With an emerging trend on American politics, we are concerned about the proposed funding cuts to transportation in Trump’s budget, which is currently the lowest in 18 years (source: <a href='https://www.nytimes.com/interactive/2017/03/16/us/politics/trump-budget-cuts.html'>New York Times</a>).</p>
-                    <p>The call for a 13% overall cut at the Department of Transportation will impact the ongoing development of smart cities and public transportations around the United States, such as Seattle’s decades-long effort to get a light rail system off the ground and the government’s multi-modal project, <a href='https://www.transportation.gov/tiger'>TIGER</a>, to improve safety and economic opportunity all across the country. This concern motivates us to explore transportation patterns in the U.S. and study the impact of the budget cuts on the U.S. population.</p>
-                    <p>We collected our data from reliable sources through census bureau, National Household Travel Survey (NHTS), and the U.S. government’s open data. Readers will be able to find the data in particular using the following links:
-<ul><li>Population Density - <a href ='https://www.census.gov/geo/maps-data/data/tiger-data.html'><font color='#77BFC7'><u>https://www.census.gov/geo/maps-data/data/tiger-data.html</u></font></a></li>
-<li>Census Data - <a href='https://www.census.gov/2010census/data/'><font color='#77BFC7'><u>https://www.census.gov/2010census/data/</u></font></a></li>
-<li>Household Income - <a href='https://catalog.data.gov/dataset?res_format=CSV&organization_type=State+Government&tags=population'><font color='#77BFC7'><u>https://catalog.data.gov/dataset?res_format=CSV&organization_type=State+Government&tags=population</u></font></a></li>
-<li>Commute Data - <a href ='https://www.census.gov/hhes/commuting/data/commutingflows.html'><font color='#77BFC7'><u>https://www.census.gov/hhes/commuting/data/commutingflows.html</u></font></a></li>
-<li>Flight Data - <a href='http://nhts.ornl.gov/download.shtml '><font color='#77BFC7'><u>http://nhts.ornl.gov/download.shtml</u></font></a></li>
+                    <p>As transportation and smart cities enthusiasts, our team is concerned about the proposed funding cuts to transportation in Trump’s budget, which is currently the lowest in 18 years (source: <a href='https://www.nytimes.com/interactive/2017/03/16/us/politics/trump-budget-cuts.html'>New York Times</a>).</p>
+
+                    <p>The call for a $2.4 billion cut will impact the ongoing development of smart cities and public transportations nationwide, such as the government’s decades-long effort to get a light rail system off the ground and improve Amtrak's long-distance train service, "which long have been inefficient and incur the vast majority of Amtrak's operating losses," according to <a href=‘http://fortune.com/2017/03/16/trump-budget-plan-dot/‘>Fortune</a>.</p>
+
+                    <p>This concern motivates us to study the impact of the budget cuts on nationwide locations through exploring Amtrak data, as well as commute rates and flight data.</p>
+
+                    <p>Our datasets are collected from open sources including census bureau, National Household Travel Survey (NHTS), and the U.S. government’s data portal. Readers will be able to find the data in particular using the following links:
+<ul>
+
+<li>Commute Data:</li>
+<ul><li> <a href='https://www.census.gov/hhes/commuting/data/commutingflows.html'><font color='#77BFC7'><u>U.S. Census Bureau 2006-2010 County-to-County Worker Flow</u></font></a></li></ul>
+
+<li>Flight Data:</li>
+<ul><li> <a href='http://nhts.ornl.gov/download.shtml'><font color='#77BFC7'><u>2009 National Household Travel Survey</u></font></a></li></ul>
+
+<li>Population Data:</li>
+<ul><li> <a href='https://www.census.gov/geo/maps-data/data/tiger-data.html'><font color='#77BFC7'><u>U.S. Census Bureau Demographic and Economic Data</u></font></a></li></ul>
 
 <li>Train Data:</li>
 <ul>
-<LI><a href='https://catalog.data.gov/dataset/amtrak-rail-stations-national'><font color='#77BFC7'><u>Amtrak Stations</u></font></a>
-<LI><a href='https://transit.land/feed-registry/operators/o-9-amtrak'><font color='#77BFC7'><u>Amtrak Timetables (GTFS)</u></font></a>
-<LI><a href='https://www.narprail.org/our-issues/reports-and-white-papers/ridership-statistics/'><font color='#77BFC7'><u>Amtrak Ridership Statistics</u></font></a></ul>
-
-
+<LI><a href='https://catalog.data.gov/dataset/amtrak-rail-stations-national'><font color='#77BFC7'><u>Amtrak Stations</u></font></a></li>
+<LI><a href='https://transit.land/feed-registry/operators/o-9-amtrak'><font color='#77BFC7'><u>Amtrak Timetables (GTFS)</u></font></a></li>
+<LI><a href='https://www.narprail.org/our-issues/reports-and-white-papers/ridership-statistics/'><font color='#77BFC7'><u>Amtrak Ridership Statistics</u></font></a></li></ul></ul>
                     </p>
 
                     <h2 class="section-heading">Meet the Team</h2>
+                    <p>Members of The Geocoders are:</p>
                     <p> <ul> <li> Aditya Garg <a href='mailto:ag3741@columbia.edu'><font color='#77BFC7'><u>ag3741@columbia.edu</u></font></a> </li>
                         <li> Moorissa Meritseba Tjokro <a href='mailto:mmt2167@columbia.edu'><font color='#77BFC7'><u>mmt2167@columbia.edu</u></font></a></li>
                         <li> Will Connor Geary <a href='mailto:cg2111@columbia.edu'><font color='#77BFC7'><u>cg2111@columbia.edu </u></font></a></li></ul></p>
-                    <p> To explore transportation patterns, Aditya will be focusing on air transport (Flight Carrier and Air travel data),
+                    <p>
+                      In exploring the data and transportation patterns, Aditya focuses on air transport (Flight Carrier and Air travel data),
                       Moorissa on various modes of transportations on road such as cars/vans/truck/and public transportations specific to commute data,
                       and Will on Amtrak/train data and populations dataset across the country. </p>
                     <p>We will map different plots on “before” and “after” budget cuts, discuss transportation patterns,
                       and analyze how the decrease in funding will significantly impact the U.S. population.
-                      We will be using Python for data extraction and manipulation, and Processing, D3, Javascript/SVG/HTML/CSS, Carto and R libraries for visualizations.</p>
+                      We are using Python for data extraction and manipulation, Processing, R and Carto for plots and map visualization, and also Javascript/SVG/HTML/CSS for the site display.</p>
 
                     <h2 class="section-heading">Data Quality</h2>
-                    <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+                    <p><font size='5px'><b>1. Availability</b></font></p>
+                    <p></p>
+                    <p><font size='5px'><b>2. Usability</b></font></p>
+                    <p></p>
+                    <p><font size='5px'><b>3. Reliability</b></font></p>
+                    <p></p>
+                    <p><font size='5px'><b>4. Relevance</b></font></p>
+                    <p></p>
+                    <p><font size='5px'><b>5. Presentation Quality</b></font></p>
+                    <p></p>
 
                     <h2 class="section-heading">Executive Summary</h2>
                     <p>The Department of Transportation (DOT) faces a $2.4 billion cut under President Trump's proposed federal budget blueprint — a surprising figure given Trump's pledges to improve U.S. infrastructure.
@@ -161,43 +177,10 @@
                     <img class="img-responsive" src="img/sasa_barplot.png" alt="">
                     <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
 
+                    <!-- <h2 class="section-heading">Analysis</h2> -->
+
                     <h2 class="section-heading">Analysis</h2>
-
-                    <!-- <h3 class="section-heading">Commute Rate</h3> -->
-<p>According to Gizmodo Research Media Group (2017), the average commuter spends about an hour a day heading to and from work, but plenty spend as much as three hours commuting. Those hours spent in the car or public transportation have profound psychological and physical impacts on most US workforce population. Transportation plays an important role in people’s daily commute, so budget cut on city transportation not only will impact the city infrastructure but also people’s way of commuting. The commute rate can hence measure the impact of Trump’s budget cut on US population.</p>
-
-<p>For the commute data from the County to County Commuting Flows 2016-2010 dataset of the census bureau, we have information on residence and place of work, each with state FIPS code, county FIPS code, state name, county name, metropolitan statistical area FIPS code, and area of county. With the provided commuting flow data, such as travel mode and workers in commuting flow, we calculated our commute rate by classifying the out-of-county commuters and taking its ratio with the number of total commuters. </p>
-
-<p>We are interested in looking at the out-of-county commuting patterns as they provide a greater insight on the impact of Trump’s budget cut on transportation (e.g. the longer the commute distance, the more people are dependable on transportations). Many of the in-county transportation modes only captures walking distance, which in this case they might not be affected as much.</p>
-
-<p>First, looking at the scatterplot below, there seems to be a relationship between in-county vs. out-of-county commuters. While most datapoints are clustered in the bottom left, we can see that the number of in-county commuters outnumbers the out-of-county commuters in every residential county.  By taking the rate of the out-of-county commuters out of the total population, we see that the median is approximately 0.26. This commute rate would enable us to see the pattern of major commuters across nation.</p>
-
-
-                    <!-- <div id="chart-2"></div> -->
-
-                    <img class="img-responsive" src="img/1_commutescatter.png" alt="">
-                    <p>The overall commute distribution from histogram below shows that majority rates for commuters who leave their county of residence for work fall within 20 percent and 30 percent range, with peak around 24 percent. This makes sense as the mean rate at 25 percent falls in the center of this range. This means that most regions in the United States have on average 25 percent workers who commute out of county. There is a sign of bimodality with a lower peak at 20 percent and distribution of data looks slightly left-skewed, with the median of 26 percent greater than its mean value. </p>
-
-<p>This distribution represents an initial measure of commuting patterns, which would allow for comparing rate frequency after Trump’s budget cut. With the budget restriction on transportations, people might not be able to commute far away, which could result in a decrease in this commute rate.</p>
-                    <img class="img-responsive" src="img/2_commutehist.png" alt="">
-                    <p>Lets now take a look at distribution by travel modes from the following boxplot, where each datapoint represents a commuting flow from every county in the US. Majority of people use public transportation than cars, trucks, or vans. Other modes include bikes and motorcycles. While there are counties with higher number of car-driver population, majority of commuters in counties across the states depend on public transportation the most. This allows us to see how Trump’s budget cut would impact commuters nationwide.</p>
-                    <img class="img-responsive" src="img/4_commuteboxplot.png" alt=""><p></p>
-                    <img class="img-responsive" src="img/5_commutehists.png" alt="">
-                    <p>Furthermore, based on our analysis using barplot below, we see that Virginia, Maryland, New Jersey, and Georgia (indicated by red bars) have over 40 percent residents leaving their home county to work daily. Modes of transportation recorded for these commuters are primarily car, van, truck, and public transportations.</p>
-
-<p>Virginia, which leads the nation in residents who leave their home county to work, at over 51 percent, and Maryland, at 47 percent, have heavy emphasis on the Washington DC area and the federal employment complex. New Jersey is affected by nearby major job centers in Pennsylvania and New York; Georgia is affected by the major metropolitan multi-county, multi-state job complex that is Atlanta. Many of the areas with more than 30 percent leaving their residence county exhibit similar characteristics. We can see that the data illustrates the attractive power of major metropolitan areas.</p>
-
-<p>Considering the case of Trump’s budget cut of $2.4 billion on public transportations, Virginia, Maryland, New Jersey, and Georgia, will be the most affected states as they have the highest rate of commuters. Public transportation areas will get more jammed due to its limited availability. More people will turn to other alternatives such as cars, hence traffic congestions in commute routes within these areas will get worse, whether it’s an out-of-state or in-state commute.</p>
-<img class="img-responsive" src="img/sasa_barplot.png" alt="">
-                    <p>Breaking it down by the travel modes, for carpooling communities with cars, trucks, or vans, Virginia, Puerto Rico, Maryland, New Jersey, and Georgia are found to be the most impacted areas. Similarly, those who drove alone will also be the most impacted in these areas, but this time Puerto Rico leading the rate. While Puerto Rico and Virginia tend to always have the most number of out-of-county commuters, Louisiana made it in the top five outnumbering Alaska and New Jersey comes for the ‘other’ modes category. </p>
-
-<p>Unsurprisingly enough, those who use public transportations for commute will have the most impact if they live in New Jersey, Virginia, Maryland, New York, and New Hampshire areas. It is also obvious that the commute rates are the highest for public transportation. This allows us to see how much impact Trump’s funding cut proposal will influence these top areas, especially those who use public transportation like buses and trains.</p>
-<img class="img-responsive" src="img/3_ratebymodes.png" alt=""><p></p>
-                    <p>Codes for the commute data analysis can be found <a href='#'>here</a>.
-<!-- <h4 class="section-heading">Flight</h4> -->
-
-                    <h2 class="section-heading">Amtrak Analysis</h2>
-
+                    <p><font size='5px'><b>On Amtrak</b></font></p>
                     <p> The White House's proposed budget would eliminate federal funding for Amtrak's national train routes, which would risk disconnecting 145 million people for whom these routes are the only nearby Amtrak service. It would eliminate $2.3 billion in funding that would have otherwise gone towards new commuter rail and light-rail projects, as well as $500 million in grants intended for investment in new national transit infrastructure (<a href='https://www.narprail.org/news/releases/rail-passengers-respond-to-white-house-budget-what-about-the-jobs-mr-president/'>National Association of Railroad Passengers</a>, 2017).</p>
 
                     <p>Understanding the geography behind these numbers is crucial for making sense of them. First, we need to understand where Amtrak routes and stations currently exist. The map below overlays the Amtrak network on top of a population density choropleth map, so we can get a sense for the scope of Amtrak's rail network and the density of the places that it serves.</p>
@@ -216,10 +199,37 @@
 
                     <p>The busiest stations at risk include: New Orleans; Denver; Orlando; Tampa; St. Paul-Minneapolis and Atlanta. The least busy stations at risk include: Sanderson, TX; Thurmond, WV; Alderson, WV;  Lordsburg, NM; Montgomery, WV; South Portsmouth, KY. The ridership data comes from the National Association of Railroad Passengers’ <a href='https://www.narprail.org/our-issues/reports-and-white-papers/ridership-statistics/'>Ridership Statistics</a> portal.</p>
 
+                    <p><font size='5px'><b>On Commute Rates</b></font></p>
+                    <p>While the above Amtrak analysis provided us with insights on areas with direct impact of the budget cut, we can use <i>commute rates</i> to further our observation on how it affects the workforce across the U.S.</p>
+                    <p>According to <a href='http://gizmodo.com/'>Gizmodo Research Media Group</a> (2017), the average commuter spends about an hour a day heading to and from work, but plenty spend as much as three hours commuting. Those hours spent in the car or public transportation have profound psychological and physical impacts on most U.S. workforce population. Transportation plays such a significant role in people’s daily commute, so budget cut on city transportation not only will impact the city infrastructure but also people’s way of commuting.</p>
+                    <p>For the commute data from the  2016-2010 dataset of the census bureau, we have information on residence and place of work, each with state FIPS code, county FIPS code, state name, county name, metropolitan statistical area FIPS code, and area of county. Given travel modes and number of population, we calculated our commute rate by classifying the out-of-county commuters and taking its ratio with the total commuters. </p>
+                    <p>The out-of-county commuting patterns provide a greater insight on the impact of Trump’s budget cut on transportation (e.g. the longer the commute distance, the more people are dependable on transportations), while many of the in-county transportation modes only captures walking distance.</p>
+                    <p>The following scatterplot shows a correlation between in-county vs. out-of-county commuters. While most datapoints are clustered in the bottom left, the number of in-county commuters outnumbers the out-of-county for every residence. Most county residence has under 1.5 million in-county commuters and under 500,000 out-of-county commuters.</p>
+                    <img class="img-responsive" src="img/1_commutescatter.png" alt="">
 
-                    <h2 class="section-heading">Flight Analysis</h2>
+                    <p>While the boxplot on the right shows that the median rate of the out-of-county commuters out of the total population is 26 percent, the histogram below shows that majority rates for commuters who leave their county of residence for work fall within 20 percent and 30 percent range, with peak around 24 percent.</p>
+                    <p>Mean rate at 25 percent means that most regions in the United States have on average 25 percent workers who commute out of county. There is also sign of bimodality with a lower peak at 20 percent and distribution of data looks slightly left-skewed, with the median of 26 percent greater than its mean value. </p>
+                    <p>This distribution represents an initial measure of commuting patterns, which would allow for comparing rate frequency after Trump’s budget cut. With the budget restriction on transportations, people might not be able to commute far away, which could result in a decrease in this commute rate.</p>
+                    <img class="img-responsive" src="img/2_commutehist.png" alt="">
+
+                    <p>Lets now take a look at distribution by travel modes from the following boxplot, where each datapoint represents a commuting flow from every county in the US. Majority of people use public transportation than cars, trucks, or vans. Other modes include bikes, motorcycles, and taxis. While there are counties with higher number of car-driver population, majority of commuters in counties across the states depend on public transportation the most. </p>
+                    <img class="img-responsive" src="img/4_commuteboxplot.png" alt=""><p></p>
+
+                    <p>The cut in funding will have a huge impact on nationwide commuters as majority use public transportation. The histogram below shows distribution of population by commuting modes.</p>
+                    <img class="img-responsive" src="img/5_commutehists.png" alt="">
+                    <p>Breaking it down further by states using barchart below, Virginia, Maryland, New Jersey, and Georgia (indicated by red bars) have over 40 percent residents leaving their home county to work daily. Modes of transportation recorded for these commuters are primarily car, van, truck, and public transportations.</p>
+
+                    <p>Virginia, which leads the nation in residents who leave their home county to work, at over 51 percent, and Maryland, at 47 percent, have heavy emphasis on the Washington DC area and the federal employment complex. New Jersey is affected by nearby major job centers in Pennsylvania and New York; Georgia is affected by the major metropolitan multi-county, multi-state job complex that is Atlanta. Many of the areas with more than 30 percent leaving their residence county exhibit similar characteristics.</p>
+                    <img class="img-responsive" src="img/sasa_barplot.png" alt="">
+                    <p>Since the Amtrak commuters is at a higher risk, taking further observation by the travel modes would allow us to see which state would be most impacted. For those who drive or carpool with cars, trucks, or vans, the top five areas with the most risk are Virginia, Puerto Rico, Maryland, New Jersey, and Georgia. While Puerto Rico and Virginia tend to have the most number of out-of-county commuters, Louisiana also seems to be at risk in the ‘other’ modes category. </p>
+
+                    <p>Meanwhile, areas of impact for commuters who use public transportations such as Amtrak include New Jersey, Virginia, Maryland, New York, and New Hampshire areas. Public transportation is leading the rate.</p>
+                    <img class="img-responsive" src="img/3_ratebymodes.png" alt=""><p></p>
+                    <p>Overall, the data illustrates the attractive power of major metropolitan areas, such as Washington DC, New York, and Pennsylvania. Commuters who work in these areas will get the most impacted.</p>
+
+                    <p><font size='5px'><b>On Flights</b></font></p>
                     <img class="img-responsive" src="img/airTransportUS.png" alt="">
-                    <span class="caption text-muted">Caption here :) </span>
+                    <!-- <span class="caption text-muted">Caption here :) </span> -->
                 </div>
             </div>
         </div>
@@ -233,24 +243,8 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <ul class="list-inline text-center">
-                        <!-- <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
                         <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li> -->
-                        <li>
-                            <a href="#">
+                            <a href="https://github.com/moorissa/geocoders">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
