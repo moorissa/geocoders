@@ -127,22 +127,22 @@
                     <p>This concern motivates us to study the impact of the budget cuts on nationwide locations through exploring Amtrak data, as well as commute rates and flight data.</p>
 
                     <p>Our datasets are collected from open sources including census bureau, National Household Travel Survey (NHTS), and the U.S. government’s data portal. Readers will be able to find the data in particular using the following links:
-<ul>
+                    <ul>
 
-<li>Commute Data:</li>
-<ul><li> <a href='https://www.census.gov/hhes/commuting/data/commutingflows.html'><font color='#77BFC7'><u>U.S. Census Bureau 2006-2010 County-to-County Worker Flow</u></font></a></li></ul>
+                    <li>Commute Data:</li>
+                    <ul><li> <a href='https://www.census.gov/hhes/commuting/data/commutingflows.html'><font color='#77BFC7'><u>U.S. Census Bureau 2006-2010 County-to-County Worker Flow</u></font></a></li></ul>
 
-<li>Flight Data:</li>
-<ul><li> <a href='http://nhts.ornl.gov/download.shtml'><font color='#77BFC7'><u>2009 National Household Travel Survey</u></font></a></li></ul>
+                    <li>Flight Data:</li>
+                    <ul><li> <a href='http://nhts.ornl.gov/download.shtml'><font color='#77BFC7'><u>2009 National Household Travel Survey</u></font></a></li></ul>
 
-<li>Population Data:</li>
-<ul><li> <a href='https://www.census.gov/geo/maps-data/data/tiger-data.html'><font color='#77BFC7'><u>U.S. Census Bureau Demographic and Economic Data</u></font></a></li></ul>
+                    <li>Population Data:</li>
+                    <ul><li> <a href='https://www.census.gov/geo/maps-data/data/tiger-data.html'><font color='#77BFC7'><u>U.S. Census Bureau Demographic and Economic Data</u></font></a></li></ul>
 
-<li>Train Data:</li>
-<ul>
-<LI><a href='https://catalog.data.gov/dataset/amtrak-rail-stations-national'><font color='#77BFC7'><u>Amtrak Stations</u></font></a></li>
-<LI><a href='https://transit.land/feed-registry/operators/o-9-amtrak'><font color='#77BFC7'><u>Amtrak Timetables (GTFS)</u></font></a></li>
-<LI><a href='https://www.narprail.org/our-issues/reports-and-white-papers/ridership-statistics/'><font color='#77BFC7'><u>Amtrak Ridership Statistics</u></font></a></li></ul></ul>
+                    <li>Train Data:</li>
+                    <ul>
+                    <LI><a href='https://catalog.data.gov/dataset/amtrak-rail-stations-national'><font color='#77BFC7'><u>Amtrak Stations</u></font></a></li>
+                    <LI><a href='https://transit.land/feed-registry/operators/o-9-amtrak'><font color='#77BFC7'><u>Amtrak Timetables (GTFS)</u></font></a></li>
+                    <LI><a href='https://www.narprail.org/our-issues/reports-and-white-papers/ridership-statistics/'><font color='#77BFC7'><u>Amtrak Ridership Statistics</u></font></a></li></ul></ul>
                     </p>
 
                     <h2 class="section-heading">Meet the Team</h2>
@@ -159,16 +159,14 @@
                       We are using Python for data extraction and manipulation, Processing, R and Carto for plots and map visualization, and also Javascript/SVG/HTML/CSS for the site display.</p>
 
                     <h2 class="section-heading">Data Quality</h2>
-                    <p><font size='5px'><b>1. Availability</b></font></p>
-                    <p></p>
-                    <p><font size='5px'><b>2. Usability</b></font></p>
-                    <p></p>
-                    <p><font size='5px'><b>3. Reliability</b></font></p>
-                    <p></p>
-                    <p><font size='5px'><b>4. Relevance</b></font></p>
-                    <p></p>
-                    <p><font size='5px'><b>5. Presentation Quality</b></font></p>
-                    <p></p>
+                    <p>While values for the commute data are consistent and clean, an issue with the data occurred during import process. In handling the import process, we used the single-byte encoding 'ISO-8859-1' instead of the default 'utf-8',
+                    because there are characters from the file that do not represent Unicode characters, such as symbol like Š.</p>
+                    <p>Furthermore, there are some missing values on the variables in the data, such as FIPS codes and statistical area of the county.
+                    However, since we are not using any of these information, we did not have to deal with missing values. Note that values in the variables we use, including
+                    'Residence - County Name', 'Place of Work - County Name', 'Travel Mode', and 'Workers in Commuting Flow' do not have missing values.</p>
+
+                    <img class="img-responsive" src="img/6_missingcommute.png" alt="">
+                    <span class="caption text-muted">Missing value plot of the U.S. Census Bureau 2006-2010 County-to-County Worker Flow</span>
 
                     <h2 class="section-heading">Executive Summary</h2>
                     <p>The Department of Transportation (DOT) faces a $2.4 billion cut under President Trump's proposed federal budget blueprint — a surprising figure given Trump's pledges to improve U.S. infrastructure.
@@ -229,7 +227,8 @@
 
                     <p><font size='5px'><b>On Flights</b></font></p>
                     <img class="img-responsive" src="img/airTransportUS.png" alt="">
-                    <!-- <span class="caption text-muted">Caption here :) </span> -->
+
+                    <h2 class="section-heading">Conclusion</h2>
                 </div>
             </div>
         </div>
