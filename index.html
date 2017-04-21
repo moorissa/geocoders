@@ -162,7 +162,7 @@
                       We are using Python for data extraction and manipulation, Processing, R and Carto for plots and map visualization, and also Javascript/SVG/HTML/CSS for the site display.</p>
 
                     <h2 class="section-heading">Data Quality</h2>
-                    <p>While values for the commute data are consistent and clean, an issue with the data occurred during import process. In handling the import process, we used the single-byte encoding 'ISO-8859-1' instead of the default 'utf-8',
+                    <p>While values for transportation data are consistent and clean, an issue with the data occurred during import process. In handling the import process, we used the single-byte encoding 'ISO-8859-1' instead of the default 'utf-8',
                     because there are characters from the file that do not represent Unicode characters, such as symbol like Š.</p>
                     <p>Furthermore, there are some missing values on the variables in the data, such as FIPS codes and statistical area of the county.
                     However, since we are not using any of these information, we did not have to deal with missing values. Note that values in the variables we use, including
@@ -172,7 +172,9 @@
                     <img class="img-responsive" src="img/6_missingcommute.png" alt="">
                     <span class="caption text-muted">Missing value plot of the U.S. Census Bureau 2006-2010 County-to-County Worker Flow</span>
 
-                    <p>The Amtrak timetable data was of high quality, thanks to Amtrak'a adherence to the GTFS format. Ridership data from the National Association for Rail Passengers was also very clean and straightforward due to consistent naming conventions for stations.</p>
+                    <p>The Amtrak timetable data was of high quality, thanks to Amtrak's adherence to the GTFS format. Ridership data from the National Association for Rail Passengers was also very clean and straightforward due to consistent naming conventions for stations.</p>
+
+                    <p>Similarly, the air transport data was of high quality and pretty structured. Air carrier data and master coordinates data for airports from the Bureau of Transportation Statistics was clean and consistent in structure.</p>
 
                     <h2 class="section-heading">Executive Summary</h2>
                     <p><blockquote>“Crumbling infrastructure will be replaced with new roads, bridges, tunnels, airports and railways gleaming across our beautiful land,” , said Trump, during a joint address to Congress early this year.</blockquote></p>
@@ -278,7 +280,7 @@
 
                     <p>Since the federal budget is only a proposal at this stage, it was tough to determine the specific changes and quantify their exact impact. A lot of effort was put in manually going through reports, news and analyses to determine the affected transportation channels and the impacted population. </p>
 
-                    <p>In the future, we can expand our work to quantify the impact of theses changes due to budget cuts on the US population and can highlight the most vulnerable areas and demographics.</p>
+                    <p>In the future, we can expand our work to quantify the impact of the changes due to budget cuts on the US population and can highlight the most vulnerable areas and demographics.</p>
 
                     <h2 class="section-heading">Code Repositories</h2>
                     <p>All python code used to wrangle Amtrak data is <a href="https://github.com/willgeary/AmtrakBudgetCuts">available here</a></p>
